@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página HTML5</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Bienvenidos a MovieClub</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#catalogo">Catálogo</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="introduccion">
+      <h2>¿Qué es MovieClub?</h2>
+      <p>MovieClub es una <strong>plataforma de streaming</strong> <em>muy fácil de usar</em> para ver películas y series en línea.</p>
+    </section>
+
+    <section id="catalogo">
+      <h3>Catálogo Destacado</h3>
+      <article>
+        <p>Disfruta de los mejores títulos de la temporada.</p>
+        <img src="assets/img/imagen1.jpg" alt="Portada de película destacada">
+        <video controls src="assets/video/video1.mp4">Tu navegador no soporta video.</video>
+      </article>
+
+      <h3>Listas de películas</h3>
+      <ol>
+        <li>Película A</li>
+        <li>Película B</li>
+        <li>Película C</li>
+      </ol>
+      <ul>
+        <li>Serie X</li>
+        <li>Serie Y</li>
+        <li>Serie Z</li>
+      </ul>
+    </section>
+
+    <section id="tabla-precios">
+      <h2>Precios de suscripción</h2>
+      <table>
+        <thead>
+          <tr><th>Plan</th><th>Precio</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Básico</td><td>$3/mes</td></tr>
+          <tr><td>Premium</td><td>$5/mes</td></tr>
+          <tr><td>Familia</td><td>$8/mes</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="contacto">
+      <h2>Contáctanos</h2>
+      <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MovieClub. Todos los derechos reservados.</p>
+    <p><a href="https://www.movieclub.com" target="_blank">Visita nuestro sitio</a></p>
+  </footer>
+</body>
+</html>
